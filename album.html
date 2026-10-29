@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的相簿</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: yellow;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        main {
+            background-color: skyblue;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .photos img {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .photo-card {
+            background-color: white;
+            padding: 12px;
+        }
+
+        footer {
+            background-color: lightgray;
+            text-align: center;
+            padding: 15px;
+        }
+
+        iframe {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>我的個人相簿</h1>
+    <p>用照片記錄生活中的美好時光</p>
+</header>
+
+<nav>
+    <a href="ex2.html">🏠 首頁</a>
+    <a href="aboutme.html">👤 關於我</a>
+    <a href="album.html">📷 我的相簿</a>
+</nav>
+
+<main>
+    <h2>📸 我的照片集</h2>
+    <p>這裡收藏了我喜歡的照片，記錄生活中的點點滴滴。</p>
+
+    <div class="photos">
+
+        <div class="photo-card">
+            <a href="https://photos.app.goo.gl/6WHdH6EHk1E4SJu79" target="_blank">
+                <img src="img/boy (1).png" alt="我的照片一">
+            </a>
+            <p>照片一：美好回憶</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://photos.app.goo.gl/6WHdH6EHk1E4SJu79" target="_blank">
+                <img src="img/name (1).png" alt="我的照片二">
+            </a>
+            <p>照片二：生活紀錄</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://photos.app.goo.gl/6WHdH6EHk1E4SJu79" target="_blank">
+                <img src="img/.jfif.png" alt="我的照片三">
+            </a>
+            <p>照片三：值得收藏的時光</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h2>🎵 我喜歡的音樂</h2>
+    <p>這裡放上我喜歡的 YouTube 音樂影片。</p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/vBk30V8AukM"
+        title="我喜歡的音樂"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <h2>📍 我喜歡的地方</h2>
+    <p>這裡介紹我喜歡或想去的地方。</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=台南市&output=embed"
+        width="560"
+        height="350"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
+
+    <p>地點介紹：這是我想分享的地方。</p>
+</main>
+
+<footer>
+    <p>我的個人網站 © 2026</p>
+</footer>
+
+</body>
+</html>
